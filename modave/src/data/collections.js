@@ -902,7 +902,7 @@ export const categories5 = [
     title: "Baby",
   },
   {
-    imgSrc: "/images/collections/catagory/bags.jpg",
+    imgSrc: "/images/collections/catagory/bag.jpg",
     alt: "collection-img",
     title: "Bags",
   },
