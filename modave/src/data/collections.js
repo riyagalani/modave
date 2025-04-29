@@ -941,24 +941,24 @@ export const categories5 = [
 export const collectionItems6 = [
   {
     id: 1,
-    imgSrc: "/images/collections/cls-electronic-1.jpg",
-    title: "New Apple Watch",
-    description: "Stay connected and stylish with the latest Apple Watch.",
+    imgSrc: "/images/collections/shopnow/TOOTH_1.jpg",
+    title: "TOOTH BRUSH HOLDER",
+    description: "A stylish holder for your toothbrush.",
     wowDelay: "0s",
   },
   {
     id: 2,
-    imgSrc: "/images/collections/cls-electronic-2.jpg",
-    title: "Discover Galaxy",
-    description: "Experience the cutting-edge Samsung S24",
-    wowDelay: "0.1s",
+    imgSrc: "/images/collections/shopnow/CLOCK.jpg",
+    title: "CLOCK",
+    description: "A stylish clock to keep you on time.",
+    wowDelay: "0.2s",
   },
   {
     id: 3,
-    imgSrc: "/images/collections/cls-electronic-3.jpg",
-    title: "Smart Speaker",
-    description: "Google home smart speaker with google assistant",
-    wowDelay: "0.2s",
+    imgSrc: "/images/collections/shopnow/ROLLER.jpg",
+    title: "MASSAGER",
+    description: "A massager for relaxation.",
+    wowDelay: "0.1s",
   },
 ];
 
