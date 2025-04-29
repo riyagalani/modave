@@ -95,7 +95,7 @@ export default function BannerTab({ parentClass = "flat-spacing pt-0" }) {
               </ul>
               <div className="wow fadeInUp">
                 <Link to={`/shop-collection`} className="btn-line">
-                  View All Collection
+                  View All Collection  
                 </Link>
               </div>
             </div>
