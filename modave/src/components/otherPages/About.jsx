@@ -21,7 +21,7 @@ export default function About() {
           <div className="col-md-6">
             <div className="about-us-content">
               <h3 className="title wow fadeInUp">
-                Modave – Offering rare and beautiful items worldwide
+              Welcome to Purchase Bazar — your all-in-one online shopping destination.
               </h3>
               <div className="widget-tabs style-3">
                 <ul className="widget-menu-tab wow fadeInUp">
@@ -31,7 +31,7 @@ export default function About() {
                   >
                     <span className="inner text-button">Introduction</span>
                   </li>
-                  <li
+                  {/* <li
                     className={`item-title ${activeTab == 2 ? "active" : ""} `}
                     onClick={() => setActiveTab(2)}
                   >
@@ -50,7 +50,7 @@ export default function About() {
                     onClick={() => setActiveTab(4)}
                   >
                     <span className="inner text-button">Our Commitment</span>
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="widget-content-tab wow fadeInUp">
                   <div
@@ -59,14 +59,7 @@ export default function About() {
                     } `}
                   >
                     <p>
-                      Welcome to Modave Store, your premier destination for
-                      fashion-forward clothing and accessories. We pride
-                      ourselves on offering a curated selection of rare and
-                      beautiful items sourced both locally and globally. Our
-                      mission is to bring you the latest trends and timeless
-                      styles, ensuring every piece reflects quality and
-                      elegance. Discover the perfect addition to your wardrobe
-                      at Modave Store.
+                    At Purchase Bazar, we believe shopping should be simple, exciting, and accessible to everyone. That’s why we’ve created a platform where you can find everything you need, from the latest electronics and stylish apparel to home essentials, health products, and more — all in one place. <br/>
                     </p>
                   </div>
                   <div
