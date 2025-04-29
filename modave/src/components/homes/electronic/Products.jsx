@@ -4,7 +4,7 @@ import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
-const tabItems = ["All Products", "Smart Phone", "Electronic", "Audio"];
+const tabItems = ["All Products","Bags","Clock","Fashion"];
 export default function Products() {
   const [activeItem, setActiveItem] = useState(tabItems[0]); // Default the first item as active
   const [selectedItems, setSelectedItems] = useState([]);
@@ -27,7 +27,7 @@ export default function Products() {
     <section className="flat-spacing-4 pt-0">
       <div className="container">
         <div className="heading-section-2 wow fadeInUp">
-          <h4>Deal of the day</h4>
+          <h4>Quick pick</h4>
           <ul
             className="tab-product-v3 justify-content-sm-center mw-100p-scroll"
             role="tablist"
