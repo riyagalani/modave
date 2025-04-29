@@ -50,7 +50,7 @@ export default function ContactPage2() {
         </div>
       </div>
       <StoreLocations3 />
-      <Contact3 />
+      {/* <Contact3 /> */}
 
       <Footer1 />
     </>
