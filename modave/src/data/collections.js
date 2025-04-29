@@ -897,44 +897,44 @@ export const collectionData4 = [
 
 export const categories5 = [
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic1.jpg",
+    imgSrc: "/images/collections/catagory/baby.jpg",
     alt: "collection-img",
-    title: "Electronics",
+    title: "Baby",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic2.jpg",
+    imgSrc: "/images/collections/catagory/bags.jpg",
     alt: "collection-img",
-    title: "Appliances",
+    title: "Bags",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic3.jpg",
+    imgSrc: "/images/collections/catagory/beauty.jpg",
     alt: "collection-img",
-    title: "Kitchen",
+    title: "Beauty",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic4.jpg",
+    imgSrc: "/images/collections/catagory/clock.jpg",
     alt: "collection-img",
-    title: "Audio",
+    title: "Clock",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic5.jpg",
+    imgSrc: "/images/collections/catagory/garden.jpg",
     alt: "collection-img",
-    title: "Smart Home",
+    title: "Garden",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic6.jpg",
+    imgSrc: "/images/collections/catagory/fashion.jpg",
     alt: "collection-img",
-    title: "Game",
+    title: "Fashion",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic7.jpg",
+    imgSrc: "/images/collections/catagory/humidifier.jpg",
     alt: "collection-img",
-    title: "Office",
+    title: "Humidifier",
   },
   {
-    imgSrc: "/images/collections/collection-circle/cls-electronic1.jpg",
+    imgSrc: "/images/collections/catagory/safety.webp",
     alt: "collection-img",
-    title: "Electronics",
+    title: "Safety",
   },
 ];
 
