@@ -10,9 +10,9 @@ export default function About() {
             <div className="about-us-features wow fadeInLeft">
               <img
                 className="lazyload"
-                data-src="/images/banner/about-us.jpg"
+                data-src="/images/section/about.jpg"
                 alt="image-team"
-                src="/images/banner/about-us.jpg"
+                src="/images/section/about.jpg"
                 width={930}
                 height={618}
               />
