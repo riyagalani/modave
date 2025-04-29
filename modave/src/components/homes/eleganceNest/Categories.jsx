@@ -1,4 +1,3 @@
-import { collections2 } from "@/data/collections";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Link } from "react-router-dom";
 export default function Categories() {

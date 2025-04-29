@@ -6,7 +6,6 @@ import Topbar6 from "@/components/headers/Topbar6";
 import Banner from "@/components/homes/electronic/Banner";
 import Categories from "@/components/homes/electronic/Categories";
 import Collections from "@/components/homes/electronic/Collections";
-import Collections2 from "@/components/homes/electronic/Collections2";
 import Hero from "@/components/homes/electronic/Hero";
 import Products from "@/components/homes/electronic/Products";
 import Products2 from "@/components/homes/electronic/Products2";
@@ -32,7 +31,6 @@ export default function HomeElectronicPage() {
       <Products2 />
       <Banner />
       <Products3 />
-      <Collections2 />
       <Features parentClass="flat-spacing-4 line-top-container" />
       <Brands parentClass="flat-spacing-5 line-top" />
       <Footer1 dark />

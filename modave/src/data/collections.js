@@ -786,20 +786,6 @@ export const categories4 = [
   },
 ];
 
-export const collectionData2 = [
-  {
-    imgSrc: "/images/collections/banner-collection/banner-cls26.jpg",
-    alt: "banner-cls",
-    title: "Capsule Collection",
-    description: "Reserved for special occasions",
-  },
-  {
-    imgSrc: "/images/collections/banner-collection/banner-cls27.jpg",
-    alt: "banner-cls",
-    title: "New Arrival",
-    description: "Reserved for special occasions",
-  },
-];
 
 export const collectionsData3 = [
   {

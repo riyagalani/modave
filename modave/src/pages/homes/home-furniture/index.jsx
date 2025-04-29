@@ -6,7 +6,6 @@ import Header1 from "@/components/headers/Header1";
 
 import Topbar3 from "@/components/headers/Topbar3";
 import Collections from "@/components/homes/furniture/Collections";
-import Collections2 from "@/components/homes/furniture/Collections2";
 import Hero from "@/components/homes/furniture/Hero";
 import Lookbook from "@/components/homes/furniture/Lookbook";
 import Products from "@/components/homes/furniture/Products";
@@ -32,7 +31,6 @@ export default function HomeFurniturePage() {
       <Products />
       <Lookbook />
       <Products6 />
-      <Collections2 />
       <Testimonials />
       <Features parentClass="flat-spacing line-top-container" />
       <ShopGram />
