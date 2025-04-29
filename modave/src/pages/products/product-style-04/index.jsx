@@ -33,7 +33,7 @@ export default function ProductStylePage4() {
                 <li>
                   <i className="icon-arrRight" />
                 </li>
-                <li>Women</li>
+                <li>Women</li> 
               </ul>
             </div>
           </div>
