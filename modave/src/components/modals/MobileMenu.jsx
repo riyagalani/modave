@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import LanguageSelect from "../common/LanguageSelect";
 import CurrencySelect from "../common/CurrencySelect";
 import {
-  blogLinks,
+  // blogLinks,
   demoItems,
   otherPageLinks,
   otherShopMenus,
@@ -415,7 +415,7 @@ export default function MobileMenu() {
                   </ul>
                 </div>
               </li>
-              <li className="nav-mb-item">
+              {/* <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-four"
                   className={`collapsed mb-menu-link ${
@@ -450,7 +450,7 @@ export default function MobileMenu() {
                     ))}
                   </ul>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-mb-item">
                 <a
                   href="#dropdown-menu-five"

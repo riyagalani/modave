@@ -8,7 +8,7 @@ export default function Products2() {
     <section className="flat-spacing-4 pt-0">
       <div className="container">
         <div className="heading-section-2 wow fadeInUp">
-          <h3>Today's Popular Picks</h3>
+          <h3>Best Seller</h3>
           <Link to={`/shop-default-grid`} className="line-under">
             See All Products
           </Link>

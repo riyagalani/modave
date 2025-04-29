@@ -29,10 +29,10 @@ export default function HomeElectronicPage() {
       <Products />
       <Collections />
       <Products2 />
-      <Banner />
-      <Products3 />
+      {/* <Banner /> */}
+      {/* <Products3 /> */}
       <Features parentClass="flat-spacing-4 line-top-container" />
-      <Brands parentClass="flat-spacing-5 line-top" />
+      {/* <Brands parentClass="flat-spacing-5 line-top" /> */}
       <Footer1 dark />
     </>
   );
