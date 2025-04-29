@@ -1,6 +1,5 @@
 import Features from "@/components/common/Features";
 import Products2 from "@/components/common/Products2";
-import Products4 from "@/components/common/Products4";
 
 import ShopGram3 from "@/components/common/ShopGram3";
 import Footer1 from "@/components/footers/Footer1";
@@ -26,7 +25,6 @@ export default function HomeFasionLuxelivingPage() {
       <MetaComponent meta={metadata} />
       <Header1 fullWidth />
       <Hero />
-      <Products4 parentClass="flat-spacing" />
       <MarqueeSection />
       <Categories />
       <LookBook />

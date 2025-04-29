@@ -1,7 +1,6 @@
 import Brands from "@/components/common/Brands";
 import Features from "@/components/common/Features";
 import Products2 from "@/components/common/Products2";
-import Products4 from "@/components/common/Products4";
 import ShopGram from "@/components/common/ShopGram";
 import Testimonials from "@/components/common/Testimonials";
 import Footer1 from "@/components/footers/Footer1";
@@ -26,7 +25,6 @@ export default function HomeFashionChicHavenPage() {
       <Header4 />
       <Hero />
       <Collections />
-      <Products4 parentClass="flat-spacing" />
       <MarqueeSection />
       <SingleProduct />
       <Products2 title="Top Trending" parentClass="flat-spacing" />

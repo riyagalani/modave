@@ -7,7 +7,6 @@ import Banner from "@/components/homes/eleganceNest/Banner";
 import Categories from "@/components/homes/eleganceNest/Categories";
 import Collections from "@/components/homes/eleganceNest/Collections";
 import Hero from "@/components/homes/eleganceNest/Hero";
-import Products from "@/components/common/Products4";
 import Products2 from "@/components/common/Products2";
 import React from "react";
 import CartTogglerSide from "@/components/common/CartTogglerSide";
@@ -28,7 +27,6 @@ export default function HomeFashionElegentNestPage() {
       <Hero />
       <MarqueeSection2 />
       <Categories />
-      <Products />
       <Collections />
       <Products2 parentClass="flat-spacing pt-0" />
       <Banner />
