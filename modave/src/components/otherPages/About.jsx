@@ -67,7 +67,7 @@ export default function About() {
                       activeTab == 2 ? "active" : ""
                     } `}
                   >
-                    <p>
+                    <p> 
                       Welcome to Modave Store, your premier destination for
                       fashion-forward clothing and accessories. We pride
                       ourselves on offering a curated selection of rare and
