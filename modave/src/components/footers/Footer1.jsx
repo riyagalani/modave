@@ -102,26 +102,14 @@ export default function Footer1({
                         />
                       </Link>
                     </div>
-                    <div className="footer-address">
-                      <p>549 Oak St.Crystal Lake, IL 60014</p>
-                      <Link
-                        to={`/contact`}
-                        className={`tf-btn-default fw-6 ${
-                          dark ? "style-white" : ""
-                        } `}
-                      >
-                        GET DIRECTION
-                        <i className="icon-arrowUpRight" />
-                      </Link>
-                    </div>
                     <ul className="footer-info">
                       <li>
                         <i className="icon-mail" />
-                        <p>themesflat@gmail.com</p>
+                        <p>purchasebazar@solvifytech.in</p>
                       </li>
                       <li>
                         <i className="icon-phone" />
-                        <p>315-666-6688</p>
+                        <p>+91 81407 74095</p>
                       </li>
                     </ul>
                     <ul
@@ -129,13 +117,6 @@ export default function Footer1({
                         dark ? "style-white" : ""
                       } `}
                     >
-                      {socialLinks.map((link, index) => (
-                        <li key={index}>
-                          <a href={link.href} className={link.className}>
-                            <i className={`icon ${link.iconClass}`} />
-                          </a>
-                        </li>
-                      ))}
                     </ul>
                   </div>
                 </div>

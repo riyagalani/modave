@@ -23,7 +23,7 @@ export default function Wishlist() {
 
             {/* pagination */}
             <ul className="wg-pagination justify-content-center">
-              <Pagination />
+              {/* <Pagination /> */}
             </ul>
           </div>
         ) : (

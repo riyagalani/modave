@@ -1,7 +1,6 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Topbar6 from "@/components/headers/Topbar6";
-import Products7 from "@/components/products/Products7";
 import { Link } from "react-router-dom";
 import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
@@ -39,7 +38,6 @@ export default function ProductStylePage7() {
           </div>
         </div>
       </div>
-      <Products7 />
       <Footer1 />
     </>
   );

@@ -1,4 +1,3 @@
-import { collections } from "@/data/collections";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import { Link } from "react-router-dom";
@@ -38,7 +37,7 @@ export default function Collections() {
               nextEl: ".snbn12",
             }}
           >
-            {collections.map((collection, index) => (
+            {/* {collections.map((collection, index) => (
               <SwiperSlide key={index}>
                 <div className="collection-circle hover-img">
                   <Link to={`/shop-collection`} className="img-style">
@@ -64,7 +63,7 @@ export default function Collections() {
                   </div>
                 </div>
               </SwiperSlide>
-            ))}
+            ))} */}
           </Swiper>
           <div className="d-flex d-lg-none sw-pagination-collection sw-dots type-circle justify-content-center spd54" />
           <div className="nav-prev-collection d-none d-lg-flex nav-sw style-line nav-sw-left snbp12">

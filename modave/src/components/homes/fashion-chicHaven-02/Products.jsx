@@ -1,5 +1,5 @@
 import ProductCard1 from "@/components/productCards/ProductCard1";
-import { products, products7 } from "@/data/products";
+import { products } from "@/data/products";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 const tabItems = ["Women", "Men"];
@@ -11,8 +11,6 @@ export default function Products({ parentClass = "flat-spacing-3" }) {
     document.getElementById("newArrivals").classList.remove("filtered");
     setTimeout(() => {
       if (activeItem == "Men") {
-        setSelectedItems(products7);
-      } else {
         setSelectedItems(products);
       }
 

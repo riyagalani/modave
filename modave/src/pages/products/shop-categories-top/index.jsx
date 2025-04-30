@@ -2,7 +2,6 @@ import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 import Topbar6 from "@/components/headers/Topbar6";
 import Products1 from "@/components/products/Products1";
-import ShopCategories from "@/components/products/ShopCategories";
 import { Link } from "react-router-dom";
 import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
@@ -40,7 +39,6 @@ export default function ShopCategoriesTopPage1() {
           </div>
         </div>
       </div>
-      <ShopCategories />
       <Products1 parentClass="flat-spacing pt-0" />
       <Footer1 />
     </>

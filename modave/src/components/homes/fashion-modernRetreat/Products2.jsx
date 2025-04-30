@@ -1,5 +1,4 @@
 import ProductCard1 from "@/components/productCards/ProductCard1";
-import { products7 } from "@/data/products";
 import React from "react";
 
 import { Link } from "react-router-dom";
@@ -15,10 +14,7 @@ export default function Products2() {
         </div>
         <div className="tf-grid-layout md-col-2">
           <div className="tf-grid-layout tf-col-2">
-            {/* card product 1 */}
-            {products7.map((product, i) => (
-              <ProductCard1 product={product} key={i} />
-            ))}
+           
           </div>
           <div className="banner-discover-right">
             <div className="banner-cls-discover hover-img">

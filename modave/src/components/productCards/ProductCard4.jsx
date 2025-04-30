@@ -232,7 +232,6 @@ export default function ProductCard4({ product }) {
               <li key={i} className="icon icon-star" />
             ))}
           </ul>
-          <span className="text-caption-1 text-secondary"> (1.234) </span>
         </div>
         <span className="price">
           {product.oldPrice && (

@@ -261,277 +261,7 @@ export const products = [
     ],
   },
 ];
-export const products7 = [
-  {
-    id: 27,
-    title: "V-neck cotton T-shirt",
-    price: 59.99,
-    imgSrc: "/images/products/mens/men-11.jpg",
-    imgHover: "/images/products/mens/men-12.jpg",
-    isOnisOnSale: false,
-    filterBrands: ["Hermes", "Gucci", "Zalando", "Adidas"],
-    inStock: false,
-    filterColor: [
-      "Pink",
-      "Red",
 
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-      "Grey",
-      "Light Blue",
-      "Dark Blue",
-    ],
-    filterSizes: ["XS", "S", "M", "L", "3XL"],
-  },
-  {
-    id: 28,
-    title: "Polarized sunglasses",
-    price: 79.99,
-    oldPrice: 98.0,
-    hotSale: true,
-    imgSrc: "/images/products/mens/men-13.jpg",
-    imgHover: "/images/products/mens/men-14.jpg",
-    isOnisOnSale: true,
-    salePercentage: "25%",
-    colors: [
-      {
-        bgColor: "bg-beige",
-        imgSrc: "/images/products/mens/men-13.jpg",
-      },
-      {
-        bgColor: "bg-light-blue-2",
-        imgSrc: "/images/products/mens/men-12.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Louis Vuitton", "Hermes", "Adidas"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-      "Beige",
-      "Orange",
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-    ],
-    filterSizes: ["XS", "L", "XL", "2XL", "3XL"],
-  },
-  {
-    id: 29,
-    title: "Ramie shirt with pockets",
-    price: 89.99,
-    oldPrice: 98.0,
-    imgSrc: "/images/products/mens/men-7.jpg",
-    imgHover: "/images/products/mens/men-8.jpg",
-    addToCart: "Quick Add",
-    sizes: ["S", "M", "L", "XL"],
-    countdown: 1007500,
-    colors: [
-      {
-        bgColor: "bg-light-green",
-        imgSrc: "/images/products/mens/men-7.jpg",
-      },
-      {
-        bgColor: "bg-light-grey",
-        imgSrc: "/images/products/mens/men-11.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Louis Vuitton", "Hermes", "Gucci"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-      "Beige",
-      "Orange",
-
-      "Purple",
-      "Grey",
-      "Light Blue",
-      "Dark Blue",
-    ],
-    filterSizes: ["XS", "S", "XL", "2XL", "3XL"],
-  },
-  {
-    id: 30,
-    title: "Ribbed cotton-blend top",
-    price: 69.99,
-    imgSrc: "/images/products/mens/men-1.jpg",
-    imgHover: "/images/products/mens/men-3.jpg",
-    colors: [
-      {
-        bgColor: "bg-dark-blue",
-        imgSrc: "/images/products/mens/men-1.jpg",
-      },
-      {
-        bgColor: "bg-light-grey",
-        imgSrc: "/images/products/mens/men-4.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Hermes", "Gucci", "Zalando", "Adidas"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-      "Beige",
-
-      "Black",
-      "White",
-      "Purple",
-      "Grey",
-      "Light Blue",
-      "Dark Blue",
-    ],
-    filterSizes: ["XS", "S", "M", "2XL", "3XL"],
-  },
-];
-export const products42 = [
-  {
-    id: 27,
-    imgSrc: "/images/products/womens/women-37.jpg",
-    imgHover: "/images/products/womens/women-38.jpg",
-    title: "Buttoned cotton shirt",
-    price: 89.99,
-    isOnisOnSale: false,
-    colors: [
-      {
-        name: "Light Blue",
-        bgColor: "bg-light-blue",
-        imgSrc: "/images/products/womens/women-37.jpg",
-      },
-      {
-        name: "White",
-        bgColor: "bg-white",
-        imgSrc: "/images/products/womens/women-41.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Louis Vuitton", "Hermes", "Adidas"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-      "Beige",
-      "Orange",
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-    ],
-    filterSizes: ["M", "L", "XL", "2XL", "3XL"],
-  },
-  {
-    id: 28,
-    imgSrc: "/images/products/mens/men-15.jpg",
-    imgHover: "/images/products/mens/men-16.jpg",
-    title: "Chest pocket cotton over shirt",
-    price: 99.25,
-    oldPrice: 98.0,
-    hotSale: true,
-
-    isOnisOnSale: true,
-    salePercentage: "25%",
-    colors: [
-      {
-        name: "Beige",
-        bgColor: "bg-beige",
-        imgSrc: "/images/products/mens/men-15.jpg",
-      },
-      {
-        name: "Black",
-        bgColor: "bg-main",
-        imgSrc: "/images/products/mens/men-18.jpg",
-      },
-      {
-        name: "Dark Blue",
-        bgColor: "bg-dark-blue",
-        imgSrc: "/images/products/mens/men-17.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Gucci", "Zalando", "Adidas"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-      "Grey",
-      "Light Blue",
-      "Dark Blue",
-    ],
-    filterSizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
-  },
-  {
-    id: 29,
-    imgSrc: "/images/products/womens/women-167.jpg",
-    imgHover: "/images/products/womens/women-168.jpg",
-    title: "Cotton shopper bag",
-    price: 89.99,
-    oldPrice: 98.0,
-
-    addToCart: "Quick Add",
-    sizes: ["S", "M", "L", "XL"],
-    countdown: 1007500,
-    colors: [
-      {
-        name: "White",
-        bgColor: "bg-white",
-        imgSrc: "/images/products/womens/women-167.jpg",
-      },
-      {
-        name: "Beige",
-        bgColor: "bg-beige",
-        imgSrc: "/images/products/womens/women-162.jpg",
-      },
-    ],
-    filterBrands: ["Nike", "Louis Vuitton", "Adidas"],
-    inStock: true,
-    filterColor: [
-      "Pink",
-      "Red",
-      "Beige",
-      "Orange",
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-    ],
-    filterSizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
-  },
-  {
-    id: 30,
-    title: "Ribbed cotton-blend top",
-    price: 69.99,
-    imgSrc: "/images/products/mens/men-19.jpg",
-    imgHover: "/images/products/mens/men-20.jpg",
-    filterBrands: [
-      "Nike",
-      "Louis Vuitton",
-      "Hermes",
-      "Gucci",
-      "Zalando",
-      "Adidas",
-    ],
-    inStock: false,
-    filterColor: [
-      "Red",
-      "Beige",
-      "Orange",
-      "Green",
-      "Black",
-      "White",
-      "Purple",
-      "Grey",
-      "Light Blue",
-      "Dark Blue",
-    ],
-    filterSizes: ["XS", "S", "M", "L", "XL", "2XL", "3XL"],
-  },
-];
 export const products2 = [
   {
     id: 9,
@@ -2471,7 +2201,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/yoga-mat.jpg",
     title: "Yoga Mat",
     price: 59.99,
-    rating: 5,
     delay: "0s",
   },
   {
@@ -2480,7 +2209,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/bag.jpg",
     title: "Folded Bags",
     price: 59.99,
-    rating: 5,
     delay: "0.1s",
   },
   {
@@ -2489,7 +2217,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/hanuman-pendent.jpg",
     title: "Hanuman Pendent Chain",
     price: 59.99,
-    rating: 5,
     delay: "0.2s",
   },
   {
@@ -2498,7 +2225,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/gold-massager.jpg",
     title: "Gold Massager",
     price: 59.99,
-    rating: 5,
     delay: "0.3s",
   },
   {
@@ -2507,7 +2233,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/soap-dish-holder.jpg",
     title: "Soap Dish Holder",
     price: 59.99,
-    rating: 5,
     delay: "0.4s",
   },
   {
@@ -2516,7 +2241,6 @@ export const products30 = [
     imgHover: "/images/collections/today's-popular-picks/merry-go-round.jpg",
     title: "Merry Go Round",
     price: 59.99,
-    rating: 5,
     delay: "0.4s",
   },
 ];
@@ -3200,7 +2924,7 @@ export const products44 = [
     oldPrice: 88.0,
   },
 ];
-export const productMain = [...products, ...products7, ...products42];
+export const productMain = [...products,];
 export const allProducts = [
   ...products,
   ...products2,
@@ -3208,7 +2932,6 @@ export const allProducts = [
   ...products4,
   ...products5,
   ...products6,
-  ...products7,
   ...products8,
   ...products9,
   ...product10,
@@ -3252,7 +2975,6 @@ export const allProducts = [
   ...products39,
   ...products40,
   ...products41,
-  ...products42,
   ...products43,
   ...products44,
 ];
