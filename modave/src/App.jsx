@@ -286,83 +286,10 @@ function App() {
               <Route path="home-electronic" element={<HomeElectronicPage />} />
               <Route path="home-pet-store" element={<HomePetStorePage />} />
 
-              {/* <Route
-                path="shop-default-grid"
-                element={<ShopDefaultGridPage />}
-              />
-              <Route
-                path="shop-default-list"
-                element={<ShopDefaultListPage />}
-              />
-              <Route
-                path="shop-fullwidth-list"
-                element={<ShopFullwidthListPage />}
-              />
-              <Route
-                path="shop-fullwidth-grid"
-                element={<ShopFullwidthGridPage />}
-              />
-              <Route
-                path="shop-left-sidebar"
-                element={<ShopLeftSidebarPage />}
-              />
-              <Route
-                path="shop-right-sidebar"
-                element={<ShopRightSidebarPage />}
-              />
-              <Route
-                path="shop-filter-dropdown"
-                element={<ShopFilterDropdownPage />}
-              />
-              <Route
-                path="shop-filter-canvas"
-                element={<ShopFilterCanvasPage />}
-              /> */}
               <Route
                 path="shop-categories-top"
                 element={<ShopCategoriesTopPage1 />}
               />
-              {/* <Route
-                path="shop-categories-top-02"
-                element={<ShopCategoriesTopPag2 />}
-              />
-              <Route path="shop-collection" element={<ShopCollectionPage />} />
-              <Route
-                path="shop-breadcrumb-img"
-                element={<ShopBreadcumbImgPage />}
-              />
-              <Route
-                path="shop-breadcrumb-left"
-                element={<ShopBreadcumbLeftPage />}
-              />
-              <Route
-                path="shop-breadcrumb-background"
-                element={<ShopBreadcumbBackgroundPage />}
-              />
-              <Route path="shop-load-button" element={<ShopLoadButtonPage />} />
-              <Route path="shop-pagination" element={<ShopPaginationPage />} />
-              <Route
-                path="shop-infinite-scrolling"
-                element={<ShopInfinateScrollingPage />}
-              />
-              <Route path="product-style-01" element={<ProductStylePage1 />} />
-              <Route path="product-style-02" element={<ProductStylePage2 />} />
-              <Route path="product-style-03" element={<ProductStylePage3 />} />
-              <Route path="product-style-04" element={<ProductStylePage4 />} />
-              <Route path="product-style-05" element={<ProductStylePage5 />} />
-              <Route path="product-style-06" element={<ProductStylePage6 />} />
-              <Route path="product-style-07" element={<ProductStylePage7 />} />
-              <Route path="wish-list" element={<WishListPage />} />
-              <Route
-                path="compare-products"
-                element={<CompareProductsPage />}
-              />
-              <Route path="search-result" element={<SearchResultPage />} />
-              <Route path="shopping-cart" element={<ShopingCartPage />} />
-              <Route path="login" element={<LoginPage />} />
-              <Route path="forget-password" element={<ForgotPasswordPage />} />
-              <Route path="order-tracking" element={<OrderTrackingPage />} />
-              <Route path="my-account" element={<MyAccountPage />} /> */}
 
               <Route
                 path="product-detail/:id"

@@ -2134,7 +2134,11 @@ export const products29 = [
     imgSrc: "/images/collections/Quickpick/BUDHA MONK.jpg",
     imgHover: "/images/collections/Quickpick/BUDHA MONK.jpg",
     title: "Budha Monk",
+<<<<<<< HEAD
     price: 59.99,
+=======
+    price: 59.99
+>>>>>>> e54c8d890aafb6cb25fea0fb236041e0a856ffe3
   },
   {
     id: 167,
