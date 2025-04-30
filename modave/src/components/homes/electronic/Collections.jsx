@@ -64,7 +64,7 @@ export default function Collections() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="sw-pagination-collection sw-dots type-circle justify-content-center spd23" />
+        {/* <div className="sw-pagination-collection sw-dots type-circle justify-content-center spd23" /> */}
       </div>
     </section>
   );

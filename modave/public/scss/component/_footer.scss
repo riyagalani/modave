@@ -26,6 +26,8 @@ footer {
     .footer-infor {
         display: flex;
         flex-direction: column;
+        height: 30px;
+        width: 160px;
         gap: 16px;
         .footer-logo {
             > a {
@@ -57,6 +59,7 @@ footer {
         }
     }
     .footer-menu {
+        margin-left: 100px;
         display: flex;
         gap: 15px;
         .footer-menu_item {

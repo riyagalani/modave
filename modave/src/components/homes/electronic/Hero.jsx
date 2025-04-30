@@ -50,15 +50,6 @@ export default function Hero() {
                         {slide.description}
                       </p>
                     </div>
-                    <div className="fade-item fade-item-4 box-btn-slider">
-                      <Link
-                        to={`/shop-default-grid`}
-                        className="tf-btn btn-fill"
-                      >
-                        <span className="text">Shop Now</span>
-                        <i className="icon icon-arrowUpRight" />
-                      </Link>
-                    </div>
                   </div>
                 </div>
               </div>
