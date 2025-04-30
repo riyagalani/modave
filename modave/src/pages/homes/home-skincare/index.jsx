@@ -5,7 +5,6 @@ import Products5 from "@/components/common/Products5";
 import Tiktok from "@/components/common/Tiktok";
 import Footer1 from "@/components/footers/Footer1";
 import Header9 from "@/components/headers/Header9";
-import Topbar4 from "@/components/headers/Topbar4";
 import Hero from "@/components/homes/skincare/Hero";
 import Lookbook from "@/components/homes/skincare/Lookbook";
 import ShopGram from "@/components/homes/skincare/ShopGram";
@@ -24,7 +23,6 @@ export default function HomeSkincarePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar4 />
       <Header9 />
       <Hero />
 

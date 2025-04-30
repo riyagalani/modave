@@ -23,7 +23,7 @@ export default function Header8() {
               <img
                 alt="logo"
                 className="logo"
-                src="/images/logo/logo.svg"
+                src="/images/collections/logo/Logo.png"
                 width={144}
                 height={25}
               />
@@ -47,25 +47,7 @@ export default function Header8() {
                   <span className="icon icon-search2" />
                 </a>
               </li>
-              <li className="nav-account">
-                <a href="#" className="nav-icon-item">
-                  <span className="icon icon-user" />
-                </a>
-                <div className="dropdown-account dropdown-login">
-                  <div className="sub-top">
-                    <Link to={`/login`} className="tf-btn btn-reset">
-                      Login
-                    </Link>
-                    <p className="text-center text-secondary-2">
-                      Don’t have an account?{" "}
-                      <Link to={`/register`}>Register</Link>
-                    </p>
-                  </div>
-                  <div className="sub-bot">
-                    <span className="body-text-">Support</span>
-                  </div>
-                </div>
-              </li>
+        
               <li className="nav-wishlist">
                 <Link to={`/wish-list`} className="nav-icon-item">
                   <span className="icon icon-heart" />

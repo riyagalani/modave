@@ -5,7 +5,6 @@ import ShopGram from "@/components/common/ShopGram2";
 import Testimonials from "@/components/common/Testimonials";
 import Footer1 from "@/components/footers/Footer1";
 import Header5 from "@/components/headers/Header5";
-import Topbar5 from "@/components/headers/Topbar5";
 import Banner from "@/components/homes/fashion-chicHaven-02/Banner";
 import Categories from "@/components/homes/fashion-chicHaven-02/Categories";
 import Hero from "@/components/homes/fashion-chicHaven-02/Hero";
@@ -24,7 +23,6 @@ export default function HomeFashionChicHavenPage2() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar5 />
       <Header5 />
       <Hero />
       <Products />

@@ -4,7 +4,6 @@ import RelatedBlogs from "@/components/blogs/RelatedBlogs";
 
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import { allBlogs } from "@/data/blogs";
 import React from "react";
 import { useParams } from "react-router-dom";
@@ -21,7 +20,6 @@ export default function BlogDetailsPage1() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <BlogDetail1 blog={blog} />
       <RelatedBlogs />

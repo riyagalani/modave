@@ -1,6 +1,6 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
+
 import Breadcumb from "@/components/productDetails/Breadcumb";
 import DetailsFixedprice from "@/components/productDetails/details/DetailsFixedprice";
 
@@ -23,7 +23,6 @@ export default function ProductFixedProcePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <Breadcumb product={product} />
       <DetailsFixedprice product={product} />
