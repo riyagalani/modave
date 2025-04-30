@@ -409,25 +409,22 @@ export const slideData = [
 
 export const slides10 = [
   {
-    imgSrc: "/images/slider/slider-electronic.jpg",
-    subtitle: "SALE! UP TO 50% OFF!",
-    title: "Dji Phantom 3<br/>Professional",
+    imgSrc: "/images/collections/banner/banner.jpg",
+    title: "Comming Soon",
     description:
-      "Metallic press stud fastening. Beaded detail. Festival Season.",
+      "We're working hard to bring you the best online shopping experience. Stay tuned!",
   },
   {
-    imgSrc: "/images/slider/slider-electronic2.jpg",
-    subtitle: "SALE! UP TO 50% OFF!",
-    title: "Marshall<br/>Woburn White",
+    imgSrc: "/images/collections/banner/banner.jpg",
+    title: "Comming Soon",
     description:
-      "Metallic press stud fastening. Beaded detail. Festival Season.",
+      "We're working hard to bring you the best online shopping experience. Stay tuned!",
   },
   {
-    imgSrc: "/images/slider/slider-electronic3.jpg",
-    subtitle: "SALE! UP TO 50% OFF!",
-    title: "Apple MagSafe<br/>For Iphone",
+    imgSrc: "/images/collections/banner/banner.jpg",
+    title: "Comming Soon",
     description:
-      "Metallic press stud fastening. Beaded detail. Festival Season.",
+      "We're working hard to bring you the best online shopping experience. Stay tuned!",
   },
 ];
 

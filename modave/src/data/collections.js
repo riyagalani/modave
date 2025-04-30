@@ -936,6 +936,21 @@ export const categories5 = [
     alt: "collection-img",
     title: "Safety",
   },
+  {
+    imgSrc: "/images/collections/catagory/tool-kit.jpg",
+    alt: "collection-img",
+    title: "Tool-kit",
+  },
+  {
+    imgSrc: "/images/collections/catagory/car-pillow.jpg",
+    alt: "collection-img",
+    title: "Car Pillow Massager",
+  },
+  {
+    imgSrc: "/images/collections/catagory/soap-holder.jpg",
+    alt: "collection-img",
+    title: "Bathroom",
+  },
 ];
 
 export const collectionItems6 = [
