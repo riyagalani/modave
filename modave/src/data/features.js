@@ -1,11 +1,5 @@
 export const iconboxItems = [
   {
-    id: 1,
-    icon: "icon-return",
-    title: "14-Day Returns",
-    description: "Risk-free shopping with easy returns.",
-  },
-  {
     id: 2,
     icon: "icon-shipping",
     title: "Free Shipping",

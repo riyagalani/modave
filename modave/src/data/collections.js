@@ -917,9 +917,9 @@ export const categories5 = [
 export const collectionItems6 = [
   {
     id: 1,
-    imgSrc: "/images/collections/shopnow/TOOTH_1.jpg",
-    title: "TOOTH BRUSH HOLDER",
-    description: "A stylish holder for your toothbrush.",
+    imgSrc: "/images/collections/shopnow/WOODEN HUMIDIFIER_4.jpg",
+    title: "WOODEN HUMIDIFIER",
+    description: "A stylish humidifier for your home.",
     wowDelay: "0s",
   },
   {
@@ -931,9 +931,9 @@ export const collectionItems6 = [
   },
   {
     id: 3,
-    imgSrc: "/images/collections/shopnow/ROLLER.jpg",
-    title: "MASSAGER",
-    description: "A massager for relaxation.",
+    imgSrc: "/images/collections/shopnow/BATH BRUSH.jpg",
+    title: "BATH BRUSH",
+    description: "A bath brush for a relaxing experience.",
     wowDelay: "0.1s",
   },
 ];

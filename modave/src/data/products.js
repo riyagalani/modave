@@ -2134,12 +2134,7 @@ export const products29 = [
     imgSrc: "/images/collections/Quickpick/BUDHA MONK.jpg",
     imgHover: "/images/products/electronic/electronic-2.jpg",
     title: "Budha Monk",
-    price: 59.99,
-    rating: 5,
-    available: 50,
-    sold: 50,
-    progressBar: 70,
-    tabFilterOptions: ["Smart Phone", "Audio"],
+    price: 59.99
   },
   {
     id: 167,

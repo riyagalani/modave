@@ -231,7 +231,7 @@ export default function ProductCard3({ product }) {
               <li key={i} className="icon icon-star" />
             ))}
           </ul>
-          <span className="text-caption-1 text-secondary"> (1.234) </span>
+          <span className="text-caption-1 text-secondary">  </span>
         </div>
         <span className="price">
           {product.oldPrice && (
@@ -252,11 +252,11 @@ export default function ProductCard3({ product }) {
           </div>
           <div className="stock-status d-flex justify-content-between align-items-center">
             <div className="stock-item text-caption-1">
-              <span className="stock-label text-secondary-2"> Available: </span>
+              {/* <span className="stock-label text-secondary-2"> Available: </span> */}
               <span className="stock-value">{product.available}</span>
             </div>
             <div className="stock-item text-caption-1">
-              <span className="stock-label text-secondary-2"> Sold: </span>
+              {/* <span className="stock-label text-secondary-2"> Sold: </span> */}
               <span className="stock-value">{product.sold}</span>
             </div>
           </div>
