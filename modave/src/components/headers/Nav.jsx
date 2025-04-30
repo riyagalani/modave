@@ -5,7 +5,6 @@ import { products } from "@/data/products";
 import { Swiper, SwiperSlide } from "swiper/react";
 import ProductCard1 from "../productCards/ProductCard1";
 import {
-  blogLinks,
   demoItems,
   otherPageLinks,
   otherShopMenus,
@@ -31,11 +30,11 @@ export default function Nav() {
             : ""
         } `}
       >
-        <a href="#" className="item-link">
+        <a href="/home-electronic" className="item-link">
           Home
-          <i className="icon icon-arrow-down" />
+          {/* <i className="icon icon-arrow-down" /> */}
         </a>
-        <div className="sub-menu mega-menu">
+        {/* <div className="sub-menu mega-menu">
           <div className="container">
             <div className="row-demo">
               {demoItems.slice(0, 12).map((item, index) => (
@@ -81,7 +80,7 @@ export default function Nav() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </li>
       <li
         className={`menu-item ${
@@ -337,7 +336,7 @@ export default function Nav() {
           </div>
         </div>
       </li>
-      <li
+      {/* <li
         className={`menu-item position-relative ${
           [...blogLinks].some(
             (elm) => elm.href.split("/")[1] == pathname.split("/")[1]
@@ -349,8 +348,7 @@ export default function Nav() {
         <a href="#" className="item-link">
           Blog
           <i className="icon icon-arrow-down" />
-        </a>
-        <div className="sub-menu submenu-default">
+        </a> <div className="sub-menu submenu-default">
           <ul className="menu-list">
             {blogLinks.map((link, index) => (
               <li
@@ -367,8 +365,8 @@ export default function Nav() {
               </li>
             ))}
           </ul>
-        </div>
-      </li>
+        </div> 
+      </li> */}
       <li
         className={`menu-item position-relative ${
           [...otherPageLinks].some(
@@ -378,11 +376,11 @@ export default function Nav() {
             : ""
         } `}
       >
-        <a href="#" className="item-link">
-          Pages
-          <i className="icon icon-arrow-down" />
+        <a href="/about-us" className="item-link">
+          About Us
+          {/* <i className="icon icon-arrow-down" /> */}
         </a>
-        <div className="sub-menu submenu-default">
+        {/* <div className="sub-menu submenu-default">
           <ul className="menu-list">
             {otherPageLinks.map((link, index) => (
               <li
@@ -399,11 +397,11 @@ export default function Nav() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */} 
       </li>
       <li className="menu-item">
-        <a href="https://themeforest.net/user/themesflat" className="item-link">
-          Buy Theme
+        <a href="/contact-02" className="item-link">
+          Contact Us
         </a>
       </li>
     </>
