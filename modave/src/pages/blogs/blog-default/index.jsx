@@ -1,7 +1,6 @@
 import BlogDefault from "@/components/blogs/BlogDefault";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import { Link } from "react-router-dom";
 import React from "react";
 import MetaComponent from "@/components/common/MetaComponent";
@@ -14,7 +13,6 @@ export default function BlogDefaultPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <div
         className="page-title"

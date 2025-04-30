@@ -1,6 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import Breadcumb from "@/components/productDetails/Breadcumb";
 
 import DetailsFixedScroll from "@/components/productDetails/details/DetailsFixedScroll";
@@ -23,7 +22,6 @@ export default function ProductFixedScrollPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <Breadcumb product={product} />
       <DetailsFixedScroll product={product} />

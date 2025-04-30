@@ -1,6 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import Breadcumb from "@/components/productDetails/Breadcumb";
 import Descriptions1 from "@/components/productDetails/descriptions/Descriptions1";
 import Details6 from "@/components/productDetails/details/Details6";
@@ -24,7 +23,7 @@ export default function ProductBottomThumbnailPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
+
       <Header1 />
       <Breadcumb product={product} />
       <Details6 product={product} />

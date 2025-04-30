@@ -1,6 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import Products8 from "@/components/products/Products8";
 import { Link } from "react-router-dom";
 import React from "react";
@@ -14,7 +13,6 @@ export default function ShopDefaultListPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <div
         className="page-title"

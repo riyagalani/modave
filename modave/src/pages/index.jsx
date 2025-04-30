@@ -1,6 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar from "@/components/headers/Topbar";
 import BannerCollection from "@/components/homes/home-1/BannerCollection";
 import BannerCountdown from "@/components/homes/home-1/BannerCountdown";
 import Blogs from "@/components/common/Blogs";
@@ -21,7 +20,6 @@ export default function HomePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar />
       <Header1 />
       <Hero />
       <Collections />

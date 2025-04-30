@@ -13,7 +13,6 @@ export default function ProductStylePage7() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <div
         className="page-title"

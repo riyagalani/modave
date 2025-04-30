@@ -40,37 +40,29 @@ import HomeSockPage from "./pages/homes/home-sock";
 import HomeCampingPage from "./pages/homes/home-camping";
 import HomeElectronicPage from "./pages/homes/home-electronic";
 import HomePetStorePage from "./pages/homes/home-pet-store";
-import ShopDefaultGridPage from "./pages/products/shop-default-grid";
-import ShopDefaultListPage from "./pages/products/shop-default-list";
-import ShopFullwidthListPage from "./pages/products/shop-fullwidth-list";
-import ShopFullwidthGridPage from "./pages/products/shop-fullwidth-grid";
-import ShopLeftSidebarPage from "./pages/products/shop-left-sidebar";
-import ShopRightSidebarPage from "./pages/products/shop-right-sidebar";
-import ShopFilterDropdownPage from "./pages/products/shop-filter-dropdown";
-import ShopFilterCanvasPage from "./pages/products/shop-filter-canvas";
 import ShopCategoriesTopPage1 from "./pages/products/shop-categories-top";
-import ShopCategoriesTopPag2 from "./pages/products/shop-categories-top-02";
-import ShopCollectionPage from "./pages/products/shop-collection";
-import ShopBreadcumbImgPage from "./pages/products/shop-breadcrumb-img";
-import ShopBreadcumbLeftPage from "./pages/products/shop-breadcrumb-left";
-import ShopBreadcumbBackgroundPage from "./pages/products/shop-breadcrumb-background";
-import ShopLoadButtonPage from "./pages/products/shop-load-button";
-import ShopPaginationPage from "./pages/products/shop-pagination";
-import ShopInfinateScrollingPage from "./pages/products/shop-infinite-scrolling";
-import ProductStylePage1 from "./pages/products/product-style-01";
-import ProductStylePage2 from "./pages/products/product-style-02";
-import ProductStylePage3 from "./pages/products/product-style-03";
-import ProductStylePage4 from "./pages/products/product-style-04";
-import ProductStylePage5 from "./pages/products/product-style-05";
-import ProductStylePage6 from "./pages/products/product-style-06";
-import ProductStylePage7 from "./pages/products/product-style-07";
-import WishListPage from "./pages/other-pages/wish-list";
-import SearchResultPage from "./pages/products/search-result";
-import ShopingCartPage from "./pages/products/shopping-cart";
-import LoginPage from "./pages/other-pages/login";
-import ForgotPasswordPage from "./pages/other-pages/forget-password";
-import OrderTrackingPage from "./pages/other-pages/order-tracking";
-import MyAccountPage from "./pages/my-account/my-account";
+// import ShopCategoriesTopPag2 from "./pages/products/shop-categories-top-02";
+// import ShopCollectionPage from "./pages/products/shop-collection";
+// import ShopBreadcumbImgPage from "./pages/products/shop-breadcrumb-img";
+// import ShopBreadcumbLeftPage from "./pages/products/shop-breadcrumb-left";
+// import ShopBreadcumbBackgroundPage from "./pages/products/shop-breadcrumb-background";
+// import ShopLoadButtonPage from "./pages/products/shop-load-button";
+// import ShopPaginationPage from "./pages/products/shop-pagination";
+// import ShopInfinateScrollingPage from "./pages/products/shop-infinite-scrolling";
+// import ProductStylePage1 from "./pages/products/product-style-01";
+// import ProductStylePage2 from "./pages/products/product-style-02";
+// import ProductStylePage3 from "./pages/products/product-style-03";
+// import ProductStylePage4 from "./pages/products/product-style-04";
+// import ProductStylePage5 from "./pages/products/product-style-05";
+// import ProductStylePage6 from "./pages/products/product-style-06";
+// import ProductStylePage7 from "./pages/products/product-style-07";
+// import WishListPage from "./pages/other-pages/wish-list";
+// import SearchResultPage from "./pages/products/search-result";
+// import ShopingCartPage from "./pages/products/shopping-cart";
+// import LoginPage from "./pages/other-pages/login";
+// import ForgotPasswordPage from "./pages/other-pages/forget-password";
+// import OrderTrackingPage from "./pages/other-pages/order-tracking";
+// import MyAccountPage from "./pages/my-account/my-account";
 import ProductDetailPage from "./pages/productDetails/product-detail";
 import ProductGridPage1 from "./pages/productDetails/product-grid-1";
 import ProductGridPage2 from "./pages/productDetails/product-grid-2";
@@ -294,7 +286,7 @@ function App() {
               <Route path="home-electronic" element={<HomeElectronicPage />} />
               <Route path="home-pet-store" element={<HomePetStorePage />} />
 
-              <Route
+              {/* <Route
                 path="shop-default-grid"
                 element={<ShopDefaultGridPage />}
               />
@@ -325,12 +317,12 @@ function App() {
               <Route
                 path="shop-filter-canvas"
                 element={<ShopFilterCanvasPage />}
-              />
+              /> */}
               <Route
                 path="shop-categories-top"
                 element={<ShopCategoriesTopPage1 />}
               />
-              <Route
+              {/* <Route
                 path="shop-categories-top-02"
                 element={<ShopCategoriesTopPag2 />}
               />
@@ -370,7 +362,7 @@ function App() {
               <Route path="login" element={<LoginPage />} />
               <Route path="forget-password" element={<ForgotPasswordPage />} />
               <Route path="order-tracking" element={<OrderTrackingPage />} />
-              <Route path="my-account" element={<MyAccountPage />} />
+              <Route path="my-account" element={<MyAccountPage />} /> */}
 
               <Route
                 path="product-detail/:id"

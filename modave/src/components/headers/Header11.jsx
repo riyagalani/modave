@@ -28,7 +28,7 @@ export default function Header11() {
                   <img
                     alt="logo"
                     className="logo"
-                    src="/images/logo/logo-white.svg"
+                    src="/images/collections/logo/Logo.png"  
                     width={127}
                     height={24}
                   />
@@ -40,17 +40,6 @@ export default function Header11() {
             </div>
             <div className="col-xl-4 col-md-4 col-3">
               <div className="wrapper-header-right">
-                <div className="d-none d-xl-flex box-support">
-                  <span className="text-white icon icon-lifebuoy" />
-                  <div>
-                    <div className="text-title text-white">
-                      Hotline: +01 1234 8888
-                    </div>
-                    <div className="text-white text-caption-2">
-                      24/7 Support Center
-                    </div>
-                  </div>
-                </div>
                 <ul className="nav-icon d-flex justify-content-end align-items-center">
                   <li className="nav-search d-inline-flex d-xl-none">
                     <a
@@ -82,47 +71,6 @@ export default function Header11() {
                         />
                       </svg>
                     </a>
-                  </li>
-                  <li className="nav-account">
-                    <a href="#" className="nav-icon-item">
-                      <svg
-                        className="icon"
-                        width={24}
-                        height={24}
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          d="M20 21V19C20 17.9391 19.5786 16.9217 18.8284 16.1716C18.0783 15.4214 17.0609 15 16 15H8C6.93913 15 5.92172 15.4214 5.17157 16.1716C4.42143 16.9217 4 17.9391 4 19V21"
-                          stroke="#181818"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                        <path
-                          d="M12 11C14.2091 11 16 9.20914 16 7C16 4.79086 14.2091 3 12 3C9.79086 3 8 4.79086 8 7C8 9.20914 9.79086 11 12 11Z"
-                          stroke="#181818"
-                          strokeWidth={2}
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                        />
-                      </svg>
-                    </a>
-                    <div className="dropdown-account dropdown-login">
-                      <div className="sub-top">
-                        <Link to={`/login`} className="tf-btn btn-reset">
-                          Login
-                        </Link>
-                        <p className="text-center text-secondary-2">
-                          Don’t have an account?{" "}
-                          <Link to={`/register`}>Register</Link>
-                        </p>
-                      </div>
-                      <div className="sub-bot">
-                        <span className="body-text-">Support</span>
-                      </div>
-                    </div>
                   </li>
                   <li className="nav-wishlist">
                     <Link to={`/wish-list`} className="nav-icon-item">

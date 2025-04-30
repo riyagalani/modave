@@ -2,7 +2,6 @@ import Features from "@/components/common/Features";
 import Testimonials3 from "@/components/common/Testimonials3";
 import Footer1 from "@/components/footers/Footer1";
 import Header10 from "@/components/headers/Header10";
-import Topbar3 from "@/components/headers/Topbar3";
 import Blogs from "@/components/homes/jewelry-01/Blogs";
 import Categories from "@/components/homes/jewelry-01/Categories";
 import Collections from "@/components/homes/jewelry-01/Collections";
@@ -23,7 +22,6 @@ export default function HomeJeweleryPage1() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar3 />
       <Header10 />
       <Hero />
       <Tiktok parentClass="flat-spacing" />

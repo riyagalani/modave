@@ -4,7 +4,6 @@ import ShopGram from "@/components/common/ShopGram2";
 import Testimonials from "@/components/common/Testimonials";
 import Footer1 from "@/components/footers/Footer1";
 import Header3 from "@/components/headers/Header3";
-import Topbar3 from "@/components/headers/Topbar3";
 import Blogs from "@/components/homes/fashion-classyCove/Blogs";
 import Categories from "@/components/homes/fashion-classyCove/Categories";
 import Collections from "@/components/homes/fashion-classyCove/Collections";
@@ -22,7 +21,6 @@ export default function HomeFashionClassyCovePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar3 />
       <Header3 />
       <Hero />
       <Collections />

@@ -1,6 +1,5 @@
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import Topbar6 from "@/components/headers/Topbar6";
 import Terms from "@/components/otherPages/Terms";
 import React from "react";
 import { Link } from "react-router-dom";
@@ -15,7 +14,6 @@ export default function TermsOfUsePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor="bg-main" />
       <Header1 />
       <div
         className="page-title"

@@ -1,8 +1,6 @@
 import MarqueeSection2 from "@/components/common/MarqueeSection2";
 import Footer1 from "@/components/footers/Footer1";
 import Header12 from "@/components/headers/Header12";
-
-import Topbar6 from "@/components/headers/Topbar6";
 import Banner from "@/components/homes/pet-store/Banner";
 import BannerCountdown from "@/components/homes/pet-store/BannerCountdown";
 import Benefits from "@/components/homes/pet-store/Benefits";
@@ -24,7 +22,6 @@ export default function HomePetStorePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar6 bgColor=" has-line-bot bg-purple" />
       <Header12 />
       <Benefits />
       <Hero />

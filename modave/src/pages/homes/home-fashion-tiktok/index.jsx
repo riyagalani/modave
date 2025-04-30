@@ -3,7 +3,6 @@ import Brands from "@/components/common/Brands";
 import Features from "@/components/common/Features";
 import Footer1 from "@/components/footers/Footer1";
 import Header6 from "@/components/headers/Header6";
-import Topbar2 from "@/components/headers/Topbar2";
 import BannerTab from "@/components/homes/fashion-tiktok/BannerTab";
 import Collections from "@/components/homes/fashion-tiktok/Collections";
 import Hero from "@/components/homes/fashion-tiktok/Hero";
@@ -24,7 +23,6 @@ export default function HomeFashionTiktokPage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar2 />
       <Header6 />
       <Hero />
       <Collections />

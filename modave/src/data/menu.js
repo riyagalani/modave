@@ -183,27 +183,10 @@ export const demoItems = [
   // },
 ];
 
-export const shopLayout = [
-  { href: "/shop-default-grid", name: "Default Grid" },
-  { href: "/shop-default-list", name: "Default List" },
-  { href: "/shop-fullwidth-list", name: "Full Width List" },
-  { href: "/shop-fullwidth-grid", name: "Full Width Grid" },
-  { href: "/shop-left-sidebar", name: "Left Sidebar" },
-  { href: "/shop-right-sidebar", name: "Right Sidebar" },
-  { href: "/shop-filter-dropdown", name: "Filter Dropdown" },
-  { href: "/shop-filter-canvas", name: "Filter Canvas" },
-];
 
 export const shopFeatures = [
   { href: "/shop-categories-top", name: "Categories Top 1" },
-  { href: "/shop-categories-top-02", name: "Categories Top 2" },
-  { href: "/shop-collection", name: "Shop Collection" },
-  { href: "/shop-breadcrumb-img", name: "Breadcrumb IMG" },
-  { href: "/shop-breadcrumb-left", name: "Breadcrumb Left" },
-  { href: "/shop-breadcrumb-background", name: "Breadcrumb BG" },
-  { href: "/shop-load-button", name: "Load Button" },
-  { href: "/shop-pagination", name: "Pagination" },
-  { href: "/shop-infinite-scrolling", name: "Infinite Scrolling" },
+
 ];
 
 export const productStyles = [

@@ -96,8 +96,8 @@ export default function Footer1({
                           alt=""
                           src={
                             dark
-                              ? "/images/logo/logo-white.svg"
-                              : "/images/logo/logo.svg"
+                              ? "/images/collections/logo/Logo.png"
+                              : "/images/collections/logo/Logo.png"
                           }
                         />
                       </Link>

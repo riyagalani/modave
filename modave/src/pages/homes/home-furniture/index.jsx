@@ -4,7 +4,7 @@ import Products6 from "@/components/common/Products6";
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
 
-import Topbar3 from "@/components/headers/Topbar3";
+
 import Collections from "@/components/homes/furniture/Collections";
 import Hero from "@/components/homes/furniture/Hero";
 import Lookbook from "@/components/homes/furniture/Lookbook";
@@ -23,7 +23,6 @@ export default function HomeFurniturePage() {
   return (
     <>
       <MetaComponent meta={metadata} />
-      <Topbar3 />
       <Header1 fullWidth />
       <Hero />
       <MarqueeSection2 parentClass="tf-marquee bg-light-blue-4 border-0" />
